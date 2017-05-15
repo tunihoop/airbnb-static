@@ -24,10 +24,11 @@
     <![endif]-->
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="<%= page_classes %>", position: "relative", min-height: "100%" %>
 
     <%= partial "navbar" %>
     <%= yield %>
+    <%= partial "footer" %>
 
   </body>
 </html>
